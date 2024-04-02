@@ -574,19 +574,16 @@ align-self: stretch;
 
 @media(max-width: 412px){
 .hero{
-  /* background-image: url(iPhone\ 13\ Pro.svg); */
-  /* background-position: center;
-  
-  background-repeat: no-repeat; */
-  /* background-color: #11111117; */
+  padding: 32px;
 }
 
   .heroimg{
     display: block;
+    position: relative;top: -70px;
   }
 
   .title-section{
-    gap: 24px;
+    gap: 18px;
   }
 
   .hero-btn{
@@ -595,13 +592,13 @@ font-size: 14px;
   }
 
   .header-title{
-    font-size: 24px;
+    font-size: 18px;
     width: 300px;
     text-align: center;
     
   }
   .header-titlespan{
-    font-size: 24px;
+    font-size: 18px;
     width: 300px;
     text-align: center;
   }
