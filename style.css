@@ -478,7 +478,7 @@ text-decoration: none;
   align-items: center;
   gap: 40px;
   padding: 108px;
-  border: #111 solid 2px;
+  /* border: #111 solid 2px; */
 }
 
 .title-section {
@@ -582,11 +582,11 @@ align-self: stretch;
 }
 
   .heroimg{
-    display: none;
+    display: block;
   }
 
   .title-section{
-    gap: 16px;
+    gap: 24px;
   }
 
   .hero-btn{
@@ -606,6 +606,8 @@ font-size: 14px;
     text-align: center;
   }
 
+
+  
 
 }
 
