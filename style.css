@@ -491,16 +491,19 @@ color: #e83f6f;
 position: relative; bottom: 64px ;
 }
 
-.p-about{
+
+
+.p-about {
   width: 456px;
   color: #222;
-font-family: "Open Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-/* position: relative; bottom: -px; */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
 }
+
 
 
 .view-projects-button{
@@ -602,16 +605,19 @@ flex-wrap: wrap;
 }
 
 
-.services{
+.services {
   display: flex;
   padding: 22.519px 16.879px 30.734px 24.96px;
   flex-direction: column;
   align-items: flex-start;
   gap: 15.149px;
   border-radius: 7.471px;
-background: #FFF;
-
+  background: #FFF;
+  height:210px;
+  /* Adding background shadow */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), 0 12px 40px rgba(0, 0, 0, 0.15);
 }
+
 
 
 .services-about{
@@ -644,7 +650,115 @@ width: 218.161px;
 }
 
 
+.skills-container{
+  display: inline-flex;
+padding: 66px 70px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+background: #F3F9F6;
+}
 
+.skills-container-2{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+
+
+.skills-containertext{
+  width: 952px;
+  height: 87px;
+  
+}
+
+.skillsrow-h1 {
+  -webkit-text-stroke: 1px #FA9F1C16; /* Width and color of the stroke */
+  font-family: Nunito;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: transparent; /* Hides the original text color */
+}
+
+
+.skills-h1{
+font-family: Nunito;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #111111;
+position: relative; bottom: 64px ;
+text-align: center;
+}
+
+
+
+.skills-container-3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+width: 1200px;
+align-items: flex-start;
+gap: 231px;
+}
+
+.skills{
+  display: flex;
+width: 303px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+flex-shrink: 0;
+}
+
+
+.skills-group{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+
+.skills-h5{
+  color: #111;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+
+.skills-all{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 303px;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.logo-skills{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.skills-text{
+  color: #222;
+text-align: center;
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 
 
