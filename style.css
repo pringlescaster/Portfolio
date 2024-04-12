@@ -253,105 +253,6 @@ text-decoration: none;
 
 
 
-@media(max-width: 800px){
-
-  .sidebar{
-    width: 100%;
-  }
-
-.hamburgerr{display: block;}
-
-  .home{
-    display: none;
-  }
-
-  .about{
-    display: none;
-  }
-
-  .projects{
-    display: none;
-  }
-
-  .contacts{
-    display: none;
-  }
-
-  .sidebar{
-    width: 100%;
-  }}
-
-
- 
-  
-  
-
-  
-
-
-@media(max-width: 400px){
-  .sidebar{
-    width: 100%;
-  }
-
-  .hamburgerr{
-    position: relative; right: 0px;
-  }
-
-  .hamburgerrx{
-    .hamburgerrx{
-      position: relative; left: 368px;
-    }
-    
-  }
-  
-}
-
-
-
-
-
-
-@media(max-width: 400px){
-  .sidebar{
-    width: 100%;
-  }
-
-  .hamburgerr{
-    position: relative; right: 0px;
-  }
-  
-}
-
-
-  .sidebar{
-    width: 100%;
-  }
-
-  .hamburgerrx{
-    position: relative; left: 368px;
-  }
-  
-
-
-
-
-
-
-@media(max-width: 360px){
-  .sidebar{
-    width: 100%;
-  }
-
-  .hamburgerrx{
-  margin-left: -20px;
-  }
-  
-}
-
-
-
-
 
 
 
@@ -1299,215 +1200,9 @@ gap: 40px;
 
 
 
+
+
 @media only screen and (max-width: 912px) {
-
-  
-
-
-
-  .hero {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .title-section {
-    position: relative;
-    top: -70px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .header-title {
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .header-titlespan {
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .hero-btn {
-    width: 108px;
-    font-size: 14px;
-    font-weight: 550;
-    height: 38px;
-    position: relative;
-    top: -2px;
-  }
-
-  .heroimg {
-    position: relative;
-    top: -100px;
-  }
-
-  .heroimg1 {
-    width: 100%; /* Adjusted width */
-    max-width: 500px; /* Added max-width */
-    margin: 0 auto; /* Center align */
-  }
-
-  .secondary-about {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    bottom: 150px;
-  }
-
-  .first-about {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-details {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .header-text {
-    justify-content: center;
-  }
-
-  .first-h1 {
-    text-align: center;
-    font-size: 36px;
-  }
-
-  .second-h1 {
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    bottom: 30px;
-  }
-
-  .p-about {
-    font-size: 14px;
-    text-align: center;
-    width: 100%; /* Adjusted width */
-    max-width: 900px; /* Added max-width */
-    margin: 0 auto; /* Center align */
-    position: relative;
-    bottom: 30px;
-  }
-
-  .img-about {
-    .img-about {
-      width: 100%; /* Adjusted width */
-      max-width: 300px; /* Added max-width for smaller screens */
-      position: relative;
-      margin: 0 auto; /* Center align horizontally */
-    }
-    
-  }
-
-  .first-thirdrow {
-    padding: 0px 50px;
-    width: 100%; /* Adjusted width */
-    max-width: 912px; /* Added max-width */
-  }
-
-  .second-thirdrow {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .services-container {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .thirdrow-h1 {
-    text-align: center;
-    font-size: 56px;
-  }
-
-  .another-h1 {
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    bottom: 58px;
-  }
-
-  .services-options {
-    column-gap: 40px;
-    row-gap: 40px;
-    width: 100%; /* Adjusted width */
-    max-width: 912px; /* Added max-width */
-    position: relative;
-    bottom: 30px;
-  }
-
-  .skills-container,
-  .skills-container-2,
-  .skills-container-3 {
-    width: 100%; /* Adjusted width */
-    max-width: 912px; /* Added max-width */
-    margin: 0 auto; /* Center align */
-  }
-
-  .skills-containertext {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .skillsrow-h1 {
-    text-align: center;
-    font-size: 56px;
-  }
-
-  .skills-h1 {
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    bottom: 58px;
-  }
-
-  .skills-container-3 {
-    column-gap: 70px;
-    justify-content: center;
-    padding-left: 20px;
-  }
-
-  .skills-all {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 20px;
-    width: 300px;
-  }
-
-  .workexperience1 {
-    width: 200px;
-  }
-
-  .main-footer {
-    width: 100%; /* Adjusted width */
-    max-width: 912px; /* Added max-width */
-    position: relative;
-    bottom: 40px;
-  }
-
-  .footer-container {
-    justify-content: center;
-    padding: 10px 0;
-  }
-
-  .footer-icons {
-    column-gap: 20px;
-  }
-}
-
-
-
-
-
-
-@media only screen and (max-width: 853px) {
 
   body {
     overflow-x: hidden;
@@ -1959,8 +1654,11 @@ gap: 40px;
 
 
     
+
+    
   
 
+    
 
 
 
@@ -1977,7 +1675,6 @@ gap: 40px;
 
 
 @media(max-width: 768px){
-
 
 
     .sidebar{
@@ -2171,17 +1868,27 @@ gap: 40px;
 
 
     .skills-container{
-overflow-x: hidden;
  width: 768px;
  justify-content: center;
+
+
  
+    }
+
+    .skills-container-2{
+      justify-content: center;
+      position: relative; right: 70px;
     }
 
 
     .skills-container-3{
-      column-gap: 80px;
+      column-gap: 60px;
       grid-template-columns: auto auto auto;
       justify-content: center;
+      
+      width: 768px;
+      position: relative;right: 30px;
+
     }
 
  
@@ -2249,119 +1956,253 @@ overflow-x: hidden;
     position:relative; left:490px;
   }
 
-  .hero{
+  .hero {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+
+  .title-section {
+    position: relative;
+    top: -70px;
+    justify-content: flex-start;
+    gap: 20px;
+
+  }
+
+  .header-title {
+    font-size: 25px;
+    text-align: center;
+    justify-content: flex-start;
+    width: 100%; /* Adjusted width */
+    max-width: 540px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .header-titlespan {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-btn {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .heroimg {
+    position: relative;
+    top: -100px;
+  }
+
+  .heroimg1 {
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .secondary-about {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .first-about {
     justify-content: center;
     align-items: center;
   }
 
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
-  
-}
+  .about-details {
+    justify-content: center;
+    align-items: center;
+  }
 
-.header-title{
-font-size: 20px;
-text-align: center;
+  .header-text {
+    justify-content: center;
+  }
+
+  .first-h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .second-h1 {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .p-about {
+    font-size: 14px;
+    text-align: center;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+    position: relative;
+    bottom: 30px;
+  }
+
+  .view-projects-button {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .img-about {
+    width: 100%; /* Adjusted width */
+    max-width: 300px; /* Added max-width for smaller screens */
+    position: relative;
+    top: 30px;
+    margin: 0 auto; /* Center align horizontally */
+  }
+
+  .first-thirdrow {
+    padding: 0px 50px;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .second-thirdrow {
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .services-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdrow-h1 {
+    text-align: center;
+    font-size: 56px;
+  }
+
+  .another-h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 58px;
+  }
+
+  .services-options {
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    position: relative;
+    bottom: 30px;
+  }
+
+  
+
+
+  .skills-container{
+width: 540px;
 justify-content: center;
-width: 500px;
-/* background-color: #111; */
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
+/* background-color: #185e91; */
+overflow-x: hidden;
 }
 
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 400px;
-}
+  .skills-container-2{
+    justify-content: center;
+    
+    
+  }
 
 
+  .skills-container-3{
+    row-gap: 60px;
+    grid-template-columns:auto;
+    justify-content: flex-start;
+    width: 500px;
 
-
-
- 
+  }
 
 
 
 
-.secondary-about{
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
-}
-
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
-
-}
-
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
+  .skills-containertext {
+    justify-content: center;
+    align-items: center;
+    position: relative; left: 4px; top: 50px;
+    
   
+  }
 
+  .skillsrow-h1 {
+    text-align: center;
+    display: none;
+  }
+
+  .skills-h1 {
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    bottom: 49px;
+  }
+
+
+
+  .figma{
+    width: 30px;
+    
+  }
+
+.skills{
+width: 200px;
+/* background-color: #e83f6f; */
+justify-content: center;
+padding-left: 30px;
 }
 
-.first-h1{
-  text-align: center;
-  font-size: 36px;
+.skills-all{
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
+
+.work-experiences{
+  padding-left: 20px;
+  
 }
 
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 500px;
-  position: relative; bottom: 30px;
-}
+  .workexperience1 {
+    width: 210px;
+  }
 
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
+  .main-footer {
+  width: 540px;
+    position: relative;
+    bottom: 80px;
+    height: 20px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
 
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .footer-container {
+    justify-content: flex-start;
+    padding: 10px 0;
+    position: relative; bottom: 20px; right: 0px;
+  }
+
+  .footer-icons {
+    column-gap: 20px;
+
+  }
 
 }
 
@@ -2374,403 +2215,286 @@ position: relative; bottom: 30px;
 
 /* media query for 430px */
 
+
+
 @media(max-width: 430px){
 
-  .hamburgerrx{
-    position: relative; left: 385px;
+  body{
+    overflow-x: hidden;
   }
+
+  .hamburgerrx{
+    position:relative; left:380px;
+  }
+
+  .hero {
+    justify-content: flex-start;
+    
+   
+
+   
+  }
+
+  .title-section {
+    position: relative;
+    right: 90px;
+    top: -70px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+  }
+
+  .header-title {
+    align-items: flex-start;
+    font-size: 24px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 430px; /* Added max-width */
+  }
+
+  .header-titlespan {
+    font-size: 24px;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .hero-btn {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .heroimg {
+    position: relative;
+    top: -100px;
+    right: 100px;
+    width: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .heroimg1 {
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .secondary-about {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .first-about {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-details {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
   
+  }
 
+  .header-text {
+    justify-content: flex-start;
+   
+   
+  }
 
-  .hero{
+  .first-h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+
+  .second-h1 {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .p-about {
+    font-size: 14px;
+    text-align: left;
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .view-projects-button {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .img-about {
+  width: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .first-thirdrow {
+    padding: 0px 50px;
+    width: 100%; /* Adjusted width */
+    max-width: 400px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .second-thirdrow {
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .services-container {
     justify-content: center;
     align-items: center;
   }
 
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 380px;
-/* background-color: #111; */
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
-
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-
-
- 
-
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  
-
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-}
-
-.hero-btn{
-  width: 104px;
-  font-size: 12px;
-  font-weight: 550;
- height: 36px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-.secondary-about{
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
-}
-
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
-
-}
-
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
-  
-
-}
-
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
-
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
-
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 380px;
-  position: relative; bottom: 30px;
-}
-
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
-
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-}
-
-
-
-
-
-
-
-
-@media(max-width: 414px){
-  .sidebar{
-    width: 100%;
+  .thirdrow-h1 {
+    text-align: center;
+    font-size: 56px;
   }
 
-  .hamburgerrx{
-    position: relative; left: 364px;
+  .another-h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 58px;
   }
 
-  .hero{
-    justify-content: center;
-    align-items: center;
-       position: relative; top: -1px;
+  .services-options {
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    position: relative;
+    bottom: 30px;
   }
 
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 380px;
-/* background-color: #111; */
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
-
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-.secondary-about{
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
-}
-
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
-
-}
-
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
   
 
+
+  .skills-container{
+ 
+width: 400px;
+justify-content: flex-start;
+/* background-color: #185e91; */
+overflow-x: hidden;
+position: relative; right: 28px;
 }
 
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
+  .skills-container-2{
+    justify-content: flex-start;
+    
+    
+  }
 
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
 
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 380px;
-  position: relative; bottom: 30px;
-}
+  .skills-container-3{
+    row-gap: 60px;
+    grid-template-columns:auto;
+    justify-content: flex-start;
+    width: 400px;
 
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
-
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  }
 
 
 
-.first-thirdrow{
-  display: none;
-}
 
-.skills-container{
-  width: 375px;
-  /* background-color: #185e91; */
-  position: relative; bottom: 30px;
-}
+  .skills-containertext {
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;top: 50px;
+    width: 400px;
+   left: 120px;
+    
+  
+  }
 
-.skills-containertext{
-  justify-content: center;
+  .skillsrow-h1 {
+    text-align: center;
+    /* display: none; */
+  }
 
-}
-
-.skillsrow-h1{
-  text-align: center;
-  font-size: 30px;
-  display: none;
-}
-
-.skills-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
+  .skills-h1 {
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+    bottom: 49px;
+    width: 490px;
+    
+   
+  }
 
 
-.skills-container-3{
-  width: 350px;
-  display: grid;
-  padding-left: 10px;
-  grid-template-columns: auto;
-  position: relative; bottom: 76px;
-  row-gap: 50px;
-}
+
+  .figma{
+    width: 30px;
+    
+  }
 
 .skills{
-  row-gap: 18px;
-}
+width: 200px;
+/* background-color: #e83f6f; */
+justify-content: flex-start;
 
-.skills-h5{
-  font-size: 16px;
 }
 
 .skills-all{
-  display: flex;
-  column-gap: 40px;
-}
-
-.skills-text{
-  font-size: 10px;
-}
-
-.figma{
-  width: 30px;
-  height: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 
 .work-experiences{
-  row-gap: 18px;
-}
 
-
-
-.ui-info{
-  width: 160px;
-}
-
-
-
-
-.main-footer{
-  position: relative; bottom: 30px;
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: left;
-  width: 370px;
-  padding: 100px 10px;
   
 }
 
-.footer-container{
-  display: grid;
-  grid-template-columns: auto;
-  row-gap: 20px;
-}
+  .workexperience1 {
+    width: 210px;
+  }
 
+  .main-footer {
+  width: 430px;
+    position: relative;
+    bottom: 80px;
+    height: 20px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
 
-.footer-ptag{
-  text-align: left;
-  
-}
+  .footer-container {
+    justify-content: flex-start;
+    background-color: #111;
+    position: relative; bottom: 20px;
+  }
 
+  .footer-icons {
+    column-gap: 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 }
+
 
 
 
@@ -2799,114 +2523,264 @@ position: relative; bottom: 30px;
   }
   
 
-  .hero{
+  .title-section {
+    position: relative;
+    right: 90px;
+    top: -70px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+  }
+
+  .header-title {
+    align-items: flex-start;
+    font-size: 24px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 430px; /* Added max-width */
+  }
+
+  .header-titlespan {
+    font-size: 24px;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .hero-btn {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .heroimg {
+    position: relative;
+    top: -100px;
+    right: 100px;
+    width: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .heroimg1 {
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .secondary-about {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .first-about {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-details {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+
+  .header-text {
+    justify-content: flex-start;
+   
+   
+  }
+
+  .first-h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+
+  .second-h1 {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .p-about {
+    font-size: 14px;
+    text-align: left;
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .view-projects-button {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .img-about {
+  width: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .first-thirdrow {
+    padding: 0px 50px;
+    width: 100%; /* Adjusted width */
+    max-width: 400px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .second-thirdrow {
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .services-container {
     justify-content: center;
     align-items: center;
   }
 
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
+  .thirdrow-h1 {
+    text-align: center;
+    font-size: 56px;
+  }
+
+  .another-h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 58px;
+  }
+
+  .services-options {
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    position: relative;
+    bottom: 30px;
+  }
+
   
+
+
+  .skills-container{
+ 
+width: 400px;
+justify-content: flex-start;
+/* background-color: #185e91; */
+overflow-x: hidden;
+position: relative; right: 28px;
 }
 
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 380px;
-/* background-color: #111; */
+  .skills-container-2{
+    justify-content: flex-start;
+    
+    
+  }
 
 
+  .skills-container-3{
+    row-gap: 60px;
+    grid-template-columns:auto;
+    justify-content: flex-start;
+    width: 400px;
+
+  }
+
+
+
+
+  .skills-containertext {
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;top: 50px;
+    width: 400px;
+   left: 120px;
+    
+  
+  }
+
+  .skillsrow-h1 {
+    text-align: center;
+    /* display: none; */
+  }
+
+  .skills-h1 {
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+    bottom: 49px;
+    width: 490px;
+    
+   
+  }
+
+
+
+  .figma{
+    width: 30px;
+    
+  }
+
+.skills{
+width: 200px;
+/* background-color: #e83f6f; */
+justify-content: flex-start;
 
 }
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
 
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-
-
-.secondary-about{
+.skills-all{
   display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
+  grid-template-columns: auto auto;
 }
 
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
 
-}
+.work-experiences{
 
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
   
-
 }
 
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
+  .workexperience1 {
+    width: 210px;
+  }
 
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
+  .main-footer {
+  width: 430px;
+    position: relative;
+    bottom: 80px;
+    height: 20px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
 
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 380px;
-  position: relative; bottom: 30px;
-}
+  .footer-container {
+    justify-content: flex-start;
+    background-color: #111;
+    position: relative; bottom: 20px;
+  }
 
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
+  .footer-icons {
+    column-gap: 20px;
 
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  }
+
 
 }
 
@@ -2930,127 +2804,287 @@ position: relative; bottom: 30px;
 
 
 @media(max-width: 390px){
+body{
+  overflow-x: hidden;
+}
 
+
+  .ul{
+  width: 390px;
+}
 
   .sidebar{
     width: 100%;
   }
 
+  .hamburgerr{
+    position: relative; left: -10px;
+  }
+
   .hamburgerrx{
-    position: relative; left: 344px;
+    position: relative; left: 390px;
   }
   
 
 
 
-  .hero{
+  .title-section {
+    position: relative;
+    right: 90px;
+    top: -70px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+  }
+
+  .header-title {
+    align-items: flex-start;
+    font-size: 24px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 430px; /* Added max-width */
+  }
+
+  .header-titlespan {
+    font-size: 24px;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .hero-btn {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .heroimg {
+    position: relative;
+    top: -100px;
+    right: 100px;
+    width: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .heroimg1 {
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .secondary-about {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .first-about {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-details {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+
+  .header-text {
+    justify-content: flex-start;
+   
+   
+  }
+
+  .first-h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+
+  .second-h1 {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .p-about {
+    font-size: 14px;
+    text-align: left;
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .view-projects-button {
+    width: 108px;
+    font-size: 14px;
+    font-weight: 550;
+    height: 38px;
+    position: relative;
+    top: -2px;
+  }
+
+  .img-about {
+  width: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .first-thirdrow {
+    padding: 0px 50px;
+    width: 100%; /* Adjusted width */
+    max-width: 400px; /* Added max-width */
+    margin: 0 auto; /* Center align */
+  }
+
+  .second-thirdrow {
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .services-container {
     justify-content: center;
     align-items: center;
   }
 
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
+  .thirdrow-h1 {
+    text-align: center;
+    font-size: 56px;
+  }
+
+  .another-h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 58px;
+  }
+
+  .services-options {
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 100%; /* Adjusted width */
+    max-width: 500px; /* Added max-width */
+    position: relative;
+    bottom: 30px;
+  }
+
   
+
+
+  .skills-container{
+ 
+width: 400px;
+justify-content: flex-start;
+/* background-color: #185e91; */
+overflow-x: hidden;
+position: relative; right: 28px;
 }
 
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 300px;
-/* background-color: #111; */
+  .skills-container-2{
+    justify-content: flex-start;
+    
+    
+  }
 
 
+  .skills-container-3{
+    row-gap: 60px;
+    grid-template-columns:auto;
+    justify-content: flex-start;
+    width: 400px;
+
+  }
+
+
+
+
+  .skills-containertext {
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;top: 50px;
+    width: 400px;
+   left: 120px;
+    
+  
+  }
+
+  .skillsrow-h1 {
+    text-align: center;
+    /* display: none; */
+  }
+
+  .skills-h1 {
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+    bottom: 49px;
+    width: 490px;
+    
+   
+  }
+
+
+
+  .figma{
+    width: 30px;
+    
+  }
+
+.skills{
+width: 200px;
+/* background-color: #e83f6f; */
+justify-content: flex-start;
 
 }
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
 
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-
-.secondary-about{
+.skills-all{
   display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
+  grid-template-columns: auto auto;
 }
 
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
 
-}
+.work-experiences{
 
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
   
-
 }
 
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
+  .workexperience1 {
+    width: 210px;
+  }
 
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
+  .main-footer {
+  width: 430px;
+    position: relative;
+    bottom: 80px;
+    height: 20px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
 
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 350px;
-  position: relative; bottom: 30px;
-}
+  .footer-container {
+    justify-content: flex-start;
+    background-color: #111;
+    position: relative; bottom: 20px;
+  }
 
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
+  .footer-icons {
+    column-gap: 20px;
 
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
+  }
 }
 
 
@@ -3058,591 +3092,5 @@ position: relative; bottom: 30px;
 
 
 /* media query for 375px */
-
-
-@media(max-width: 375px){
-
-
-
-
-  .hamburgerr{display: block;}
-  
-  .home{
-    display: none;
-  }
-
-  .about{
-    display: none;
-  }
-
-  .projects{
-    display: none;
-  }
-
-  .contacts{
-    display: none;
-  }
-
-  .sidebar{
-    width: 100%;
-  }
-
-  .hamburgerrx{
-    position: relative; left: 330px;
-  }
-
-
-
-  .hero{
-    justify-content: center;
-    align-items: center;
-    /* overflow-x: hidden; */
-  }
-
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 300px; */
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 370px;
-/* background-color: #111; */
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
-
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-
-
-.secondary-about{
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
-}
-
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
-
-}
-
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
-  
-
-}
-
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
-
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 28px;
-}
-
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 350px;
-  position: relative; bottom: 30px;
-}
-
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
-
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-.first-thirdrow{
-  display: none;
-}
-
-.skills-container{
-  width: 375px;
-  /* background-color: #185e91; */
-  position: relative; bottom: 30px;
-}
-
-.skills-containertext{
-  justify-content: center;
-
-}
-
-.skillsrow-h1{
-  text-align: center;
-  font-size: 30px;
-  display: none;
-}
-
-.skills-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
-
-
-.skills-container-3{
-  width: 350px;
-  display: grid;
-  padding-left: 10px;
-  grid-template-columns: auto;
-  position: relative; bottom: 76px;
-  row-gap: 50px;
-}
-
-.skills{
-  row-gap: 18px;
-}
-
-.skills-h5{
-  font-size: 16px;
-}
-
-.skills-all{
-  display: flex;
-  column-gap: 40px;
-}
-
-.skills-text{
-  font-size: 10px;
-}
-
-.figma{
-  width: 30px;
-  height: 30px;
-}
-
-
-.work-experiences{
-  row-gap: 18px;
-}
-
-
-
-.ui-info{
-  width: 160px;
-}
-
-
-
-
-.main-footer{
-  position: relative; bottom: 30px;
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: left;
-  width: 370px;
-  padding: 100px 10px;
-  
-}
-
-.footer-container{
-  display: grid;
-  grid-template-columns: auto;
-  row-gap: 20px;
-}
-
-
-.footer-ptag{
-  text-align: left;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-@media(max-width: 360px){
-
-  .hamburgerrx{
-    position: relative; left: 330px;
-  }
-
-  .hero{
-    justify-content: center;
-    align-items: center;
-    /* position: relative; top: -1px; */
-  }
-
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* width: 20px; */
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-width: 300px;
-/* background-color: #111; */
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-}
-
-.hero-btn{
-  width: 110px;
-  font-size: 14px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-
-
- 
-
-.title-section{
-  position: relative; top: -70px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  
-
-  
-}
-
-.header-title{
-font-size: 20px;
-text-align: center;
-justify-content: center;
-
-
-
-}
-.header-titlespan{
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-}
-
-.hero-btn{
-  width: 104px;
-  font-size: 12px;
-  font-weight: 550;
- height: 36px;
-}
-
-.heroimg{
-  position: relative; top: -100px;
-}
-
-.heroimg1{
-  width: 300px;
-}
-
-
-
-.secondary-about{
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: relative; bottom: 150px;
- 
- 
-}
-
-.first-about{
-  justify-content: center;
-  align-items: center;
- 
-
-}
-
-.about-details{
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text{
-  justify-content: center;
-  
-
-}
-
-.first-h1{
-  text-align: center;
-  font-size: 36px;
-}
-
-.second-h1{
-  text-align: center;
-font-size: 20px;
-position: relative; bottom: 30px;
-}
-
-.p-about{
-  font-size: 14px;
-  text-align: center;
-  width: 300px;
-  position: relative; bottom: 30px;
-
-}
-
-.view-projects-button{
-  width: 110px;
-  height: 36px;
-  font-size: 12px;
-  font-weight: 550;
-  position: relative; top: -2px;
-}
-
-.img-about{
-  width: 300px;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-@media(max-width: 280px){
-
-
-  .lo{
-    height: 80px;
-    width: 80px;
-    position: relative;top: -12px;
-  }
-
-  .hamburgerr{display: block;}
-  
-    .home{
-      display: none;
-    }
-  
-    .about{
-      display: none;
-    }
-  
-    .projects{
-      display: none;
-    }
-  
-    .contacts{
-      display: none;
-    }
-  
-    .sidebar{
-      width: 100%;
-    }
-
-    .hamburgerrx{
-      position: relative; left: 255px;
-    }
-
-
-    
-
-      .hero{
-        justify-content: center;
-        align-items: center;
-      }
- 
-    
-    .title-section{
-      position: relative; top: -70px;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-      
-    
-      
-    }
-    
-    .header-title{
-    font-size: 14px;
-    text-align: center;
-    justify-content: center;
-    width:240px;
-    
-    
-    }
-    .header-titlespan{
-      font-size: 14px;
-      text-align: center;
-      justify-content: center;
-    }
-    
-    .hero-btn{
-      width: 100px;
-      font-size: 12px;
-      font-weight: 550;
-     height: 32px;
-    }
-    
-    .heroimg{
-      position: relative; top: -100px;
-    }
-    
-    .heroimg1{
-      width: 200px;
-    }
-    
-    
-    
-    .secondary-about{
-      display: grid;
-      grid-template-columns: auto;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-      position: relative; bottom: 150px;
-     
-     
-    }
-    
-    .first-about{
-      justify-content: center;
-      align-items: center;
-     
-    
-    }
-    
-    .about-details{
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .header-text{
-      justify-content: center;
-      
-    
-    }
-    
-    .first-h1{
-      text-align: center;
-      font-size: 36px;
-    }
-    
-    .second-h1{
-      text-align: center;
-    font-size: 20px;
-    position: relative; top: -30px;
-    }
-    
-    .p-about{
-      font-size: 14px;
-      text-align: center;
-      width: 240px;
-      position: relative; bottom: 30px;
-    
-    }
-    
-    .view-projects-button{
-      width: 100px;
-      height: 32px;
-      font-size: 12px;
-      font-weight: 550;
-      position: relative; top: -2px;
-    }
-    
-    .img-about{
-      width: 200px;
-      position: relative;
-      top: 60%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    
-    }
-    
-
 
 
