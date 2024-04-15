@@ -731,7 +731,7 @@ line-height: normal;
 
 .main-footer{
   display: flex;
-  /* width: 1300px; */
+  width: 1300px;
 padding: 126px 71px;
 flex-direction: column;
 align-items: flex-start;
@@ -772,10 +772,6 @@ gap: 40px;
 
 
 @media(min-width: 320px){
-
-  .autoo{
-    row-gap: 10px;
-  }
 
   .main-nav{width: 320px;
   justify-content: center;
@@ -930,12 +926,104 @@ position: relative; top: -34px;
 .img-about{
   width: 200px;
 }
+
+
+.first-thirdrow{
+ display: none;
+
+}
+
+
+.skills-container{
+  width: 320px;
+}
+
+.skills-container-2{
+  width: 320px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-end;
+
+
+}
+
+.skills-containertext{
+  justify-content: flex-end;
+  width: 300px;
+padding-left: 10px;
+}
+.skillsrow-h1{
+  font-size: 30px;
+  text-align: left;
+
+}
+
+.skills-h1{
+  font-size: 22px;
+  text-align: left;
+}
+
+.skills-container-3{
+  display: grid;
+  grid-template-columns: auto;
+  width: 320px;
+  row-gap: 80px;
+  padding-left: 10px;
+}
+
+.skills{
+  width: 200px;
+  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+}
+
+.skills-all{
+  width: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  column-gap: 0px;
+}
+
+.figma{
+  width:30px ;
+}
+
+.work-experiences{
+  row-gap: 40px;
+}
+
+.main-footer{
+  width: 320px;
+  height: 100px;
+padding-left: 10px;
+justify-content: flex-end;
+
+}
+
+.footer-container{
+display: grid;
+grid-template-columns: auto;
+row-gap: 20px;
+}
+
+.footer-ptag{
+text-align: left;
+}
+
+.footer-icons{
+  column-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
 
 
-
+}
   
   
 
