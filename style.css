@@ -773,6 +773,7 @@ gap: 40px;
 
 @media(min-width: 320px){
 
+
   .main-nav{width: 320px;
   justify-content: center;
 }
@@ -2975,7 +2976,7 @@ text-align: left;
 
 .hamburgerrx{
   display: block;
-  position: relative; left: 500px;
+  position: relative; left: 494px;
 
 }
 
@@ -3054,7 +3055,7 @@ text-align: left;
 
 .primary-about{
   padding-top: 20px;
-  width: 425px;
+  width: 540px;
   display: grid;
   grid-template-columns: auto;
   justify-content: flex-end;
@@ -3065,7 +3066,7 @@ text-align: left;
 .secondary-about{
   display: grid;
   grid-template-columns: auto;
-  width: 400px;
+  width: 500px;
   gap: 30px;
   padding-left: 20px;
 
@@ -3073,7 +3074,7 @@ text-align: left;
 
 .first-about{
  
-  width: 400px;
+  width: 500px;
   display: grid;
   grid-template-columns: auto;
   justify-content: flex-end;
@@ -3102,7 +3103,7 @@ position: relative; top: -34px;
 }
 
 .p-about{
-  width: 380px;
+  width: 500px;
   font-size: 14px;
   /* padding-left: 10px; */
   /* position: relative;bottom: 116px;  */
