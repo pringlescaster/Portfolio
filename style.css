@@ -4091,6 +4091,965 @@ text-align: left;
 }
 
 
+@media(min-width: 820px){
+
+  .main-nav{width: 800px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ul{
+  position: relative; top: 20px;
+}
+
+.lo{
+ width: 200px;
+ height: 50px;
+ position: relative; top: -14px; right: 40px;
+}
+
+  
+
+  .sidebar{
+    width: 100%;
+  }
+
+.hamburgerr{display: none;}
+
+.hamburgerrx{
+  display: none;
+  position: relative; left: 494px;
+
+}
+
+
+
+
+
+
+  .home{
+    display: block;
+  }
+
+  .about{
+    display: block;
+  }
+
+  .projects{
+    display: block;
+  }
+
+  .contacts{
+    display: block;
+  }
+
+  
+
+
+  
+  .hero{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    grid-template-columns: auto;
+    /* position: relative;left: -10px; */
+   
+  }
+
+
+
+  .title-section{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+   
+  }
+
+  .header-title{
+    text-align: center;
+    font-size: 24px;
+    
+  }
+
+  .header-titlespan{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .heroimg{
+    justify-content: center;
+    
+  }
+  .heroimg1{
+    width: 400px;
+  }
+  
+  .hero-btn{
+    width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+  }
+
+
+.primary-about{
+position: relative; bottom: 50px;
+  width: 800px;
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.secondary-about{
+display: flex;
+width:700px;
+justify-content: center;
+column-gap: 60px;
+}
+
+.first-about{
+ 
+  width: 450px;
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.about-details{
+  display: grid;
+}
+
+.header-text{
+  justify-content: flex-end;
+  width: 200px;
+  height: 50px;
+
+}
+
+.first-h1{
+  font-size: 30px;
+}
+
+.second-h1{
+font-size: 20px;
+position: relative; top: -34px;
+}
+
+.p-about{
+  width: 300px;
+  font-size: 14px;
+  /* padding-left: 10px; */
+  /* position: relative;bottom: 116px;  */
+}
+
+.view-projects-button{
+  width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+}
+.img-about{
+ width: 300px;
+ 
+}
+
+
+.first-thirdrow{
+ display: block;
+ width: 800px;
+ justify-content: center;
+}
+
+.second-thirdrow{
+  width: 0px;
+  /* position: relative; left: 44px; bottom: 60px; */
+  padding: 0px 0px;
+ 
+
+}
+
+.services-container{
+justify-content: center;
+.thirdrow-h1{
+  display: none;
+}
+.another-h1{
+text-align: center;
+font-size: 32px;
+position: relative; top: 34px;
+}
+}
+
+.services-options{
+  display: grid;
+  width: 760px;
+  grid-template-columns: auto auto;
+}
+
+
+.skills-container{
+  width: 800px;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.skills-container-2{
+  width: 800px;
+  display: grid;
+  grid-template-columns: auto;
+justify-content: center;
+
+ 
+
+
+
+}
+
+.skills-containertext{
+  justify-content: center;
+  width: 800px;
+ position: relative; bottom: 60px;
+ 
+}
+.skillsrow-h1{
+  font-size: 32px;
+  text-align: center;
+  display: none;
+
+}
+
+.skills-h1{
+  font-size: 32px;
+  text-align: center;
+  /* position: relative; bottom: 20px; */
+}
+
+
+.skills-h5{
+font-size: 24px;
+width: 200px;}
+
+
+.skills-container-3{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  width: 800px;
+  column-gap: 90px;
+  justify-content: center;
+
+  /* background-color: #185e91; */
+  
+  padding-left: 40px;
+ 
+}
+
+.skills{
+  width: 220px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+
+}
+
+.skills-all{
+  width: 220px;
+  display: grid;
+  column-gap: 2px;
+  /* background-color: #111; */
+}
+
+.figma{
+  width:30px ;
+}
+
+.work-experiences{
+  row-gap: 40px;
+  padding-left: 0px;
+ 
+}
+
+.main-footer{
+  width: 820px;
+  height: 100px;
+padding-left: 40px;
+justify-content: flex-end;
+
+}
+
+.footer-container{
+display: grid;
+grid-template-columns: auto;
+row-gap: 20px;
+}
+
+.footer-ptag{
+text-align: left;
+}
+
+.footer-icons{
+  column-gap: 18px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-foot{
+  width: 25px;
+}
+
+
+}
+
+
+
+
+@media(min-width: 912px){
+
+  .main-nav{width: 912px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ul{
+  position: relative; top: 20px;
+}
+
+.lo{
+ width: 200px;
+ height: 50px;
+ position: relative; top: -14px; right: 40px;
+}
+
+  
+
+  .sidebar{
+    width: 100%;
+  }
+
+.hamburgerr{display: none;}
+
+.hamburgerrx{
+  display: none;
+  position: relative; left: 494px;
+
+}
+
+
+
+
+
+
+  .home{
+    display: block;
+  }
+
+  .about{
+    display: block;
+  }
+
+  .projects{
+    display: block;
+  }
+
+  .contacts{
+    display: block;
+  }
+
+  
+
+
+  
+  .hero{
+    width: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    grid-template-columns: auto;
+    /* position: relative;left: -10px; */
+   
+  }
+
+
+
+  .title-section{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+   
+  }
+
+  .header-title{
+    text-align: center;
+    font-size: 24px;
+    
+  }
+
+  .header-titlespan{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .heroimg{
+    justify-content: center;
+    
+  }
+  .heroimg1{
+    width: 400px;
+  }
+  
+  .hero-btn{
+    width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+  }
+
+
+.primary-about{
+position: relative; bottom: 50px;
+  width: 912px;
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.secondary-about{
+display: flex;
+width: 800px;
+justify-content: flex-start;
+column-gap: 90px;
+ /* background-color: #2274A5; */
+}
+
+.first-about{
+ 
+  width: 600px;
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.about-details{
+  display: grid;
+}
+
+.header-text{
+  justify-content: flex-end;
+  width: 200px;
+  height: 50px;
+
+}
+
+.first-h1{
+  font-size: 30px;
+}
+
+.second-h1{
+font-size: 20px;
+position: relative; top: -34px;
+}
+
+.p-about{
+  width: 360px;
+  font-size: 14px;
+  /* padding-left: 10px; */
+  /* position: relative;bottom: 116px;  */
+}
+
+.view-projects-button{
+  width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+}
+.img-about{
+ width: 300px;
+ position: relative; left:25px;
+}
+
+
+.first-thirdrow{
+ display: block;
+ width: 820px;
+ justify-content: center;
+}
+
+.second-thirdrow{
+  width: 0px;
+  position: relative; left: 90px; bottom: 60px;
+  padding: 0px 0px;
+ 
+
+}
+
+.services-container{
+justify-content: center;
+.thirdrow-h1{
+  display: none;
+}
+.another-h1{
+text-align: center;
+font-size: 32px;
+position: relative; top: 34px;
+}
+}
+
+.services-options{
+  display: grid;
+  width: 900px;
+  grid-template-columns: auto auto;
+}
+
+
+.skills-container{
+  width: 912px;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.skills-container-2{
+  width: 900px;
+  display: grid;
+  grid-template-columns: auto;
+justify-content: center;
+
+ 
+
+
+
+}
+
+.skills-containertext{
+  justify-content: center;
+  width: 900px;
+ position: relative; bottom: 60px;
+ 
+}
+.skillsrow-h1{
+  font-size: 32px;
+  text-align: center;
+  display: none;
+
+}
+
+.skills-h1{
+  font-size: 32px;
+  text-align: center;
+  /* position: relative; bottom: 20px; */
+}
+
+
+.skills-h5{
+font-size: 24px;
+width: 200px;}
+
+
+.skills-container-3{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  width: 900px;
+  column-gap: 90px;
+  justify-content: center;
+
+  /* background-color: #185e91; */
+  
+  padding-left: 40px;
+ 
+}
+
+.skills{
+  width: 220px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+
+}
+
+.skills-all{
+  width: 220px;
+  display: grid;
+  column-gap: 2px;
+  /* background-color: #111; */
+}
+
+.figma{
+  width:30px ;
+}
+
+.work-experiences{
+  row-gap: 40px;
+  padding-left: 0px;
+ 
+}
+
+.main-footer{
+  width: 912px;
+  height: 100px;
+padding-left: 40px;
+justify-content: flex-end;
+
+}
+
+.footer-container{
+display: grid;
+grid-template-columns: auto;
+row-gap: 20px;
+}
+
+.footer-ptag{
+text-align: left;
+}
+
+.footer-icons{
+  column-gap: 18px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-foot{
+  width: 25px;
+}
+
+
+}
+
+
+
+@media(min-width: 1024px){
+
+  .main-nav{width: 1000px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ul{
+  position: relative; top: 20px;
+}
+
+.lo{
+ width: 200px;
+ height: 50px;
+ position: relative; top: -14px; right: 40px;
+}
+
+  
+
+  .sidebar{
+    width: 100%;
+  }
+
+.hamburgerr{display: none;}
+
+.hamburgerrx{
+  display: none;
+  position: relative; left: 494px;
+
+}
+
+
+
+
+
+
+  .home{
+    display: block;
+  }
+
+  .about{
+    display: block;
+  }
+
+  .projects{
+    display: block;
+  }
+
+  .contacts{
+    display: block;
+  }
+
+  
+
+
+  
+  .hero{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    grid-template-columns: auto;
+    /* position: relative;left: -10px; */
+   
+  }
+
+
+
+  .title-section{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+   
+  }
+
+  .header-title{
+    text-align: center;
+    font-size: 24px;
+    
+  }
+
+  .header-titlespan{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .heroimg{
+    justify-content: center;
+    
+  }
+  .heroimg1{
+    width: 400px;
+  }
+  
+  .hero-btn{
+    width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+  }
+
+
+.primary-about{
+position: relative; bottom: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.secondary-about{
+display: flex;
+width:900px;
+justify-content: center;
+column-gap: 200px;
+ /* background-color: #2274A5; */
+}
+
+.first-about{
+ 
+  width: 600px;
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.about-details{
+  display: grid;
+}
+
+.header-text{
+  justify-content: flex-end;
+  width: 200px;
+  height: 50px;
+
+}
+
+.first-h1{
+  font-size: 30px;
+}
+
+.second-h1{
+font-size: 20px;
+position: relative; top: -34px;
+}
+
+.p-about{
+  width: 360px;
+  font-size: 14px;
+  /* padding-left: 10px; */
+  /* position: relative;bottom: 116px;  */
+}
+
+.view-projects-button{
+  width: 160px;
+    font-size: 14px;
+    height: 36px;
+    font-weight: 500;
+}
+.img-about{
+ width: 300px;
+ position: relative; left:25px;
+}
+
+
+.first-thirdrow{
+ display: block;
+ width: 1000px;
+ justify-content: center;
+}
+
+.second-thirdrow{
+  width: 0px;
+  position: relative; left: 160px; bottom: 60px;
+  padding: 0px 0px;
+ 
+
+}
+
+.services-container{
+justify-content: center;
+.thirdrow-h1{
+  display: none;
+}
+.another-h1{
+text-align: center;
+font-size: 32px;
+position: relative; top: 34px;
+}
+}
+
+.services-options{
+  display: flex;
+  width: 1000px;
+  grid-template-columns: auto auto auto;
+  position: relative; left: 5px;
+}
+
+
+.skills-container{
+  width: 1000px;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.skills-container-2{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: auto;
+justify-content: center;
+
+ 
+
+
+
+}
+
+.skills-containertext{
+  justify-content: center;
+  width: 1000px;
+ position: relative; bottom: 60px;
+ 
+}
+.skillsrow-h1{
+  font-size: 32px;
+  text-align: center;
+  display: none;
+
+}
+
+.skills-h1{
+  font-size: 32px;
+  text-align: center;
+  /* position: relative; bottom: 20px; */
+}
+
+
+.skills-h5{
+font-size: 24px;
+width: 200px;}
+
+
+.skills-container-3{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  width: 1000px;
+  column-gap: 170px;
+  justify-content: center;
+
+  /* background-color: #185e91; */
+  
+  padding-left: 40px;
+ 
+}
+
+.skills{
+  width: 220px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+
+}
+
+.skills-all{
+  width: 220px;
+  display: grid;
+  column-gap: 2px;
+  /* background-color: #111; */
+}
+
+.figma{
+  width:30px ;
+}
+
+.work-experiences{
+  row-gap: 40px;
+  padding-left: 0px;
+ 
+}
+
+.main-footer{
+  width: 1009px;
+  height: 100px;
+padding-left: 40px;
+justify-content: flex-end;
+
+}
+
+.footer-container{
+display: grid;
+grid-template-columns: auto;
+row-gap: 20px;
+}
+
+.footer-ptag{
+text-align: left;
+}
+
+.footer-icons{
+  column-gap: 18px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-foot{
+  width: 25px;
+}
+
+
+}
+
+
+
+
 
 
 
